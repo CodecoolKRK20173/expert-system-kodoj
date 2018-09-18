@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="farming">
+        <Question>Do you like to grind a lot?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="money">
+        <Question>Pay to win is ok for you?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="daily">
+        <Question>Can you login daily?</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="pvp">
+        <Question>PvP > PvE ?</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="pc">
+        <Question>Do you have at least 8gb of RAM and mid budget graphic card?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>
