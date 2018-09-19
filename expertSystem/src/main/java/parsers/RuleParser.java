@@ -55,7 +55,7 @@ public class RuleParser extends XMLParser {
             Element selectionNode = (Element) selections.item(i);
             boolean selectionType = Boolean.valueOf(selectionNode.getAttribute("value"));
             Element valueNode = (Element) selectionNode.getChildNodes().item(1);
-            Value value;
+            Value value = null;
 
             if (valueNode.getNodeName().equals("SingleValue")) {
 
