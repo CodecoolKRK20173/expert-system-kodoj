@@ -1,10 +1,6 @@
 package parsers;
 
-import java.util.Arrays;
-import java.util.List;
-
 import containers.Answer;
-import containers.MultipleValue;
 import containers.Question;
 import containers.RuleRepository;
 import containers.SingleValue;
@@ -42,9 +38,7 @@ public class RuleParser extends XMLParser {
 
             Element questionNode = (Element) ruleNode.getElementsByTagName("Question").item(0);
             String questionText = questionNode.getTextContent();
-
             Answer answer = parseAnswer(ruleNode);
-
             Question question = new Question(id, questionText, answer);
             this.ruleRepository.addQuestion(question);
 
@@ -60,7 +54,6 @@ public class RuleParser extends XMLParser {
 
             Element selectionNode = (Element) selections.item(i);
             boolean selectionType = Boolean.valueOf(selectionNode.getAttribute("value"));
-
             Element valueNode = (Element) selectionNode.getChildNodes().item(1);
             Value value;
 
@@ -69,12 +62,7 @@ public class RuleParser extends XMLParser {
                 String param = valueNode.getAttribute("value");
                 value = new SingleValue(param, selectionType);
 
-            } else {
-
-                List<String> params = Arrays.asList(valueNode.getAttribute("value").split(","));
-                value = new MultipleValue(params, selectionType);
             }
-
             answer.addValue(value);
         }
 
