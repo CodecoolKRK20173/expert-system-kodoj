@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Facts>
     <Fact id="tibia">
-        <Description value="low everything, no needs at all"/>
+        <Description value="Tibia - everything is low and weak, no needs at all"/>
         <Evals>
             <Eval id="farming">false</Eval>
             <Eval id="money">false</Eval>
@@ -11,7 +11,7 @@
         </Evals>
     </Fact>
     <Fact id="WoW">
-        <Description value="Nice old game, pvp oriented"/>
+        <Description value=" World of Warcraft - Nice old game, pvp oriented"/>
         <Evals>
             <Eval id="farming">true</Eval>
             <Eval id="money">true</Eval>
@@ -21,7 +21,7 @@
         </Evals>
     </Fact>
     <Fact id="Silkroad">
-        <Description value="Endless farming game"/>
+        <Description value="Silkroad - Endless farming game"/>
         <Evals>
             <Eval id="farming">true</Eval>
             <Eval id="money">false</Eval>
@@ -31,7 +31,7 @@
         </Evals>
     </Fact>
     <Fact id="Albion online">
-        <Description value="sandbox without pc requirement"/>
+        <Description value="Albion online - sandbox without pc requirement"/>
         <Evals>
             <Eval id="farming">true</Eval>
             <Eval id="money">true</Eval>
@@ -41,7 +41,7 @@
         </Evals>
     </Fact>
     <Fact id="Destiny 2">
-        <Description value="newest fps mmorpg"/>
+        <Description value="Destiny 2 - newest fps mmorpg"/>
         <Evals>
             <Eval id="farming">false</Eval>
             <Eval id="money">true</Eval>
@@ -51,7 +51,7 @@
         </Evals>
     </Fact>
     <Fact id="Life is Feudal">
-        <Description value="some nice sandbox here"/>
+        <Description value="Life is Feudal - nice sandbox with high pc requirements"/>
         <Evals>
             <Eval id="farming">true</Eval>
             <Eval id="money">true</Eval>
@@ -60,8 +60,8 @@
             <Eval id="pc">true</Eval>
         </Evals>
     </Fact>
-    <Fact id="Black dessert online">
-        <Description value="mmo for hipsters"/>
+    <Fact id="Black desert online">
+        <Description value=" Black Desert Online - MMO for hipsters"/>
         <Evals>
             <Eval id="farming">false</Eval>
             <Eval id="money">true</Eval>
@@ -71,7 +71,7 @@
         </Evals>
     </Fact>
     <Fact id="Lineage 2">
-        <Description value="super old, super fun"/>
+        <Description value="Lineage 2 - super old, super fun"/>
         <Evals>
             <Eval id="farming">true</Eval>
             <Eval id="money">false</Eval>
@@ -80,8 +80,8 @@
             <Eval id="pc">false</Eval>
         </Evals>
     </Fact>
-    <Fact id="star wars the old republic">
-        <Description value="nice old futuristic mmo"/>
+    <Fact id="Star wars the old republic">
+        <Description value="Star Wars The Old Republic - nice old futuristic mmo"/>
         <Evals>
             <Eval id="farming">false</Eval>
             <Eval id="money">false</Eval>

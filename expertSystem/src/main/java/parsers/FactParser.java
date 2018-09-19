@@ -37,7 +37,6 @@ public class FactParser extends XMLParser {
             Fact fact = new Fact(id, description);
             setFactValues(fact, factNode);
             this.factRepository.addFact(fact);
-
         }
     }
 
