@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="tibia">
+        <Description value="low everything, no needs at all"/>
+        <Evals>
+            <Eval id="farming">false</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="daily">false</Eval>
+            <Eval id="pvp">false</Eval>
+            <Eval id="pc">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="WoW">
+        <Description value="Nice old game, pvp oriented"/>
+        <Evals>
+            <Eval id="farming">true</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="daily">false</Eval>
+            <Eval id="pvp">true</Eval>
+            <Eval id="pc">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="Silkroad">
+        <Description value="Endless farming game"/>
+        <Evals>
+            <Eval id="farming">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="daily">true</Eval>
+            <Eval id="pvp">false</Eval>
+            <Eval id="pc">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="Albion online">
+        <Description value="sandbox without pc requirement"/>
+        <Evals>
+            <Eval id="farming">true</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="daily">true</Eval>
+            <Eval id="pvp">false</Eval>
+            <Eval id="pc">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="Destiny 2">
+        <Description value="newest fps mmorpg"/>
+        <Evals>
+            <Eval id="farming">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="daily">false</Eval>
+            <Eval id="pvp">true</Eval>
+            <Eval id="pc">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="Life is Feudal">
+        <Description value="some nice sandbox here"/>
+        <Evals>
+            <Eval id="farming">true</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="daily">true</Eval>
+            <Eval id="pvp">false</Eval>
+            <Eval id="pc">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="Black dessert online">
+        <Description value="mmo for hipsters"/>
+        <Evals>
+            <Eval id="farming">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="daily">true</Eval>
+            <Eval id="pvp">true</Eval>
+            <Eval id="pc">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="Lineage 2">
+        <Description value="super old, super fun"/>
+        <Evals>
+            <Eval id="farming">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="daily">false</Eval>
+            <Eval id="pvp">true</Eval>
+            <Eval id="pc">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="star wars the old republic">
+        <Description value="nice old futuristic mmo"/>
+        <Evals>
+            <Eval id="farming">false</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="daily">false</Eval>
+            <Eval id="pvp">true</Eval>
+            <Eval id="pc">false</Eval>
+        </Evals>
+    </Fact>
+</Facts>
